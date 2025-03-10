@@ -54,7 +54,7 @@ function App() {
   const plans: Plan[] = [
     {
       title: "Site Simples",
-      price: "R$ 997",
+      price: "R$ 197",
       features: [
         "1 página responsiva",
         "Design otimizado",
@@ -67,7 +67,7 @@ function App() {
     },
     {
       title: "Site Moderado",
-      price: "R$ 1.997",
+      price: "R$ 497",
       features: [
         "Até 2 páginas responsivas",
         "Design personalizado",
@@ -80,7 +80,7 @@ function App() {
     },
     {
       title: "Site Completo",
-      price: "R$ 3.997",
+      price: "R$ 797",
       features: [
         "Site profissional completo",
         "Integração e-commerce",
@@ -247,14 +247,11 @@ function App() {
               <p className="text-gray-400">Entre em contato e transforme sua ideia em realidade.</p>
             </div>
             <div className="flex space-x-4">
-              <a href="#" className="hover:text-blue-400 transition-colors">
+              <a href="https://github.com/RenanGCV" className="hover:text-blue-400 transition-colors" target='_blank'>
                 <Github className="w-6 h-6" />
               </a>
-              <a href="#" className="hover:text-blue-400 transition-colors">
+              <a href="https://www.linkedin.com/in/renan-teodoro-lopes-gon%C3%A7alves-804014221/" className="hover:text-blue-400 transition-colors" target='_blank'>
                 <Linkedin className="w-6 h-6" />
-              </a>
-              <a href="#" className="hover:text-blue-400 transition-colors">
-                <Twitter className="w-6 h-6" />
               </a>
             </div>
           </div>
